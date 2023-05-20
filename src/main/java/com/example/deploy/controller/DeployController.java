@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("aws")
-public class Deploy {
+public class DeployController {
 
     @GetMapping("deploy")
     public String get(){
